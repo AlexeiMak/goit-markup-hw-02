@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -41,16 +41,19 @@ body {
 .contacts {
   font-weight: 400;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .contacts-link {
   color: #434455;
-  font-style: normal;
 }
 
-.contacts-link:hover,
+.contacts-link:hover {
+  color: #4d5ae5;
+}
+
 .contacts-link:focus {
   color: #4d5ae5;
 }
@@ -79,7 +82,7 @@ body {
   cursor: pointer;
 }
 
-.butoon:hover {
+.button:hover {
   background-color: #404bbf;
 }
 
@@ -109,9 +112,10 @@ body {
 .team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
